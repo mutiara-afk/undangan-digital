@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f1e8">
+  <meta name="description" content="Undangan pernikahan Wari Syahputra dan Berliana Fitri Zannah.">
+  <title>Pernikahan — Wari & Berliana</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/config.js" defer></script>
+  <script src="assets/js/app.js" defer></script>
+</head>
+<body class="invitation-page">
+  <div class="top-ornament" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#sampul" aria-label="Ke sampul undangan">W <span>&</span> B</a>
+    <nav class="main-nav" aria-label="Navigasi utama">
+      <a href="#acara">Acara</a><a href="#rsvp">RSVP</a><a href="#ucapan">Ucapan</a><a href="hadiah.html">Kirim Hadiah</a>
+    </nav>
+    <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-label="Buka navigasi">☰</button>
+  </header>
+
+  <main>
+    <section class="cover section-shell" id="sampul">
+      <div class="cover-pattern" aria-hidden="true"></div>
+      <p class="eyebrow">UNDANGAN PERNIKAHAN</p>
+      <p class="cover-intro">Dengan memohon rahmat dan ridha Allah SWT</p>
+      <h1><span data-bridegroom>Wari Syahputra</span><span class="ampersand">&</span><span data-bride>Berliana Fitri Zannah</span></h1>
+      <div class="ornament-divider" aria-hidden="true"><span>✦</span></div>
+      <p class="cover-date" data-date-summary>14–15 November 2026</p>
+      <p class="cover-caption">Kami mengundang Bapak/Ibu/Saudara/i untuk hadir dan memberikan doa restu.</p>
+      <button class="button button-primary" id="open-invitation">Buka Undangan <span aria-hidden="true">↓</span></button>
+      <p class="cover-note">Mohon maaf apabila terdapat kekeliruan dalam penulisan nama dan gelar.</p>
+    </section>
+
+    <section class="section-shell intro-section reveal" id="pembuka">
+      <p class="eyebrow">BISMILLAHIRRAHMANIRRAHIM</p>
+      <h2>Assalamu’alaikum<br>Warahmatullahi Wabarakatuh</h2>
+      <blockquote class="quran-quote">“Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu pasangan-pasangan dari jenismu sendiri, agar kamu merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang.”<cite>QS. Ar-Rum: 21</cite></blockquote>
+      <p class="body-copy">Dengan memohon rahmat dan ridha Allah SWT, kami bermaksud menyelenggarakan pernikahan kami. Merupakan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu.</p>
+    </section>
+
+    <section class="section-shell couple-section reveal" id="mempelai">
+      <p class="eyebrow">DENGAN PENUH RASA SYUKUR</p>
+      <h2>Kedua Mempelai</h2>
+      <div class="couple-photo-frame">
+        <img id="couple-photo" src="assets/images/foto-bersama-placeholder.svg" alt="Placeholder satu foto bersama kedua mempelai" loading="lazy" width="900" height="1100">
+        <span class="photo-caption">Satu foto bersama kedua mempelai</span>
+      </div>
+      <div class="couple-names">
+        <article class="name-card">
+          <h3 data-bridegroom>Wari Syahputra</h3>
+          <p>Putra dari</p>
+          <p class="parents"><span data-father-groom>Seswoto</span><br>dan <span data-mother-groom>Yustiawati (Atik)</span></p>
+        </article>
+        <div class="name-divider" aria-hidden="true">❦</div>
+        <article class="name-card">
+          <h3 data-bride>Berliana Fitri Zannah</h3>
+          <p>Putri dari</p>
+          <p class="parents"><span data-father-bride>Syaiful Bahri</span><br>dan <span data-mother-bride>Sarila</span></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="countdown-band reveal" aria-labelledby="countdown-title">
+      <div class="section-shell">
+        <p class="eyebrow">MENUJU HARI BAHAGIA</p>
+        <h2 id="countdown-title">Menghitung Hari</h2>
+        <p id="countdown-status" class="muted">Menuju hari resepsi</p>
+        <div class="countdown" id="countdown" hidden>
+          <div><strong id="cd-days">—</strong><span>Hari</span></div><div><strong id="cd-hours">—</strong><span>Jam</span></div><div><strong id="cd-minutes">—</strong><span>Menit</span></div><div><strong id="cd-seconds">—</strong><span>Detik</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-shell events-section reveal" id="acara">
+      <p class="eyebrow">CATAT TANGGALNYA</p><h2>Waktu & Tempat</h2>
+      <div class="event-grid">
+        <article class="event-card"><span class="event-symbol" aria-hidden="true">✦</span><h3>Akad Nikah</h3><p class="event-date" data-akad-date>Sabtu, 14 November 2026</p><p class="event-time" data-akad-time>Waktu akan dikonfirmasi</p><div class="thin-rule"></div><p data-venue>Gang Afra Florist, Dusun Dahlia, Desa Teluk Bakung</p></article>
+        <article class="event-card"><span class="event-symbol" aria-hidden="true">❀</span><h3>Resepsi</h3><p class="event-date" data-resepsi-date>Minggu, 15 November 2026</p><div class="thin-rule"></div><p data-venue>Gang Afra Florist, Dusun Dahlia, Desa Teluk Bakung</p></article>
+      </div>
+      <div class="button-row"><a class="button button-primary" id="maps-link" href="https://www.google.com/maps?q=3.9258680,98.4265480" target="_blank" rel="noopener noreferrer">Lihat Lokasi di Google Maps ↗</a><a class="button button-outline" id="calendar-link" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=Pernikahan%20Wari%20Syahputra%20%26amp;%20Berliana%20Fitri%20Zannah&amp;dates=20261114%2F20261116&amp;details=Undangan%20pernikahan&amp;location=Gang%20Afra%20Florist%2C%20Dusun%20Dahlia%2C%20Desa%20Teluk%20Bakung" target="_blank" rel="noopener noreferrer">Simpan Tanggal</a></div>
+    </section>
+
+    <section class="rsvp-band reveal" id="rsvp">
+      <div class="section-shell rsvp-layout">
+        <div class="rsvp-copy"><p class="eyebrow">KONFIRMASI KEHADIRAN</p><h2>Kehadiran Anda<br>Berarti bagi Kami</h2><p>Mohon luangkan waktu untuk mengisi konfirmasi kehadiran dan menyampaikan doa terbaik.</p><p class="small-note">Data konfirmasi digunakan untuk keperluan acara. Ucapan akan ditampilkan setelah disetujui untuk dipublikasikan.</p></div>
+        <form class="rsvp-form" id="rsvp-form" novalidate>
+          <label for="guest-name">Nama lengkap tamu</label><input id="guest-name" name="name" type="text" maxlength="80" autocomplete="name" required placeholder="Tuliskan nama Anda">
+          <label for="attendance">Konfirmasi kehadiran</label><select id="attendance" name="attendance" required><option value="">Pilih jawaban</option><option value="Hadir">Hadir</option><option value="Tidak Hadir">Tidak Hadir</option></select>
+          <label for="guest-count">Jumlah tamu yang hadir</label><input id="guest-count" name="guestCount" type="number" min="0" max="10" value="1" required><p class="field-help" id="guest-count-help">Isi jumlah orang yang akan hadir, maksimal 10 orang.</p>
+          <label for="guest-message">Ucapan dan doa <span class="optional">(opsional)</span></label><textarea id="guest-message" name="message" rows="4" maxlength="500" placeholder="Tuliskan doa terbaik Anda (maksimal 500 karakter)"></textarea>
+          <div class="honeypot" aria-hidden="true"><label for="website-field">Jangan isi kolom ini</label><input id="website-field" name="website" tabindex="-1" autocomplete="off"></div>
+          <button class="button button-primary button-full" id="submit-rsvp" type="submit">Kirim Konfirmasi</button>
+          <p class="form-status" id="rsvp-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section-shell greetings-section reveal" id="ucapan">
+      <p class="eyebrow">DOA & HARAPAN</p><h2>Ucapan dan Doa</h2><p class="body-copy">Terima kasih atas setiap doa baik yang diberikan kepada kami.</p>
+      <div class="greetings-list" id="greetings-list"><p class="muted" id="greetings-status">Ucapan akan dimuat setelah layanan terhubung.</p></div>
+      <button class="button button-outline" id="refresh-greetings" type="button">Muat Ulang Ucapan</button>
+    </section>
+
+    <section class="closing-section section-shell reveal">
+      <div class="closing-flourish" aria-hidden="true">❦</div><p class="eyebrow">TERIMA KASIH</p><h2>Wassalamu’alaikum<br>Warahmatullahi Wabarakatuh</h2>
+      <p class="body-copy">Merupakan kehormatan dan kebahagiaan bagi kami atas kehadiran serta doa restu Bapak/Ibu/Saudara/i.</p>
+      <p class="closing-names"><span data-bridegroom>Wari Syahputra</span><span>&</span><span data-bride>Berliana Fitri Zannah</span></p>
+      <a class="button button-primary" href="hadiah.html">Kirim Hadiah ♡</a>
+    </section>
+  </main>
+  <footer class="site-footer"><p>Dengan cinta dan doa • <span data-bridegroom>Wari Syahputra</span> & <span data-bride>Berliana Fitri Zannah</span></p></footer>
+</body>
+</html>
