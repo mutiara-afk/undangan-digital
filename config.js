@@ -15,11 +15,10 @@ window.WEDDING_CONFIG = {
   verse: "Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu pasangan-pasangan dari jenismu sendiri, agar kamu merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang.",
   verseReference: "QS. Ar-Rum: 21",
   couplePhoto: "assets/images/foto-bersama-placeholder.svg",
-  appsScriptUrl: "", // Tempel URL Web App Apps Script setelah deployment.
-  bank: {
+  appsScriptUrl: "https://script.google.com/macros/s/AKfycbxdlWxH9Xs7Tq4ohAImZHq8Dj36lbJqAyNb74hghsD_sWRszgG0V4-JJHb6GLI1HVKI/exec",
     name: "SeaBank",
     accountName: "Berliana Fitri Zannah",
-    accountNumber: "", // Isi nomor rekening yang benar di sini sebelum publikasi.
+    accountNumber: "901847248723", // Isi nomor rekening yang benar di sini sebelum publikasi.
     showWhenEmpty: true
   },
   ewallet: { enabled: false, name: "", recipient: "", number: "" },
