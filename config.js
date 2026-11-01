@@ -10,7 +10,7 @@ window.WEDDING_CONFIG = {
   bank: "SeaBank", recipient: "Berliana Fitri Zannah",
   /* Nomor rekening yang ditentukan untuk halaman hadiah. */
   accountNumber: "901847248723",
-  appsScriptUrl: "",
+  appsScriptUrl: "https://script.google.com/macros/s/AKfycbwbQCsG4SkHQxi5gUgpU4QiM_mncdP7FHgw5ujiUntk1qYX1WtjUiSFy7qkDRSIheNfNw/exec",
   calendarDurationHours: 2,
   musicPath: "",
   couplePhoto: "assets/images/foto-bersama.webp"
