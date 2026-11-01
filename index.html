@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f5efe5"><meta name="description" content="Undangan pernikahan Wari Syahputra dan Berliana Fitri Zannah">
+<title>Pernikahan — Wari & Berliana</title><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="cover" id="cover">
+  <div class="ornament">❧ ✦ ❧</div><img class="wayang-mark" src="assets/images/wayang-ornament.svg" alt="" aria-hidden="true"><p class="eyebrow">UNDANGAN PERNIKAHAN</p>
+  <h1><span data-groom></span><i>&</i><span data-bride></span></h1>
+  <p data-date></p><button id="openInvite" class="primary">Buka Undangan</button>
+</header>
+<nav class="nav" aria-label="Navigasi"><a href="#acara">Acara</a><a href="#rsvp">RSVP</a><a href="#ucapan">Ucapan</a><a href="hadiah.html" aria-label="Buka halaman kirim hadiah">Kirim Hadiah</a></nav>
+<main>
+<section class="section intro"><p class="eyebrow">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</p><h2>Assalamu’alaikum Warahmatullahi Wabarakatuh</h2>
+<blockquote>“Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu pasangan-pasangan dari jenismu sendiri, agar kamu merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang.”<cite>QS. Ar-Rum: 21</cite></blockquote>
+<p>Dengan memohon rahmat dan ridha Allah SWT, kami bermaksud mengundang Bapak/Ibu/Saudara/i untuk menghadiri pernikahan kami.</p></section>
+<section class="section couple"><h2>Kedua Mempelai</h2><div class="photo-wrap"><img id="couplePhoto" src="assets/images/foto-bersama.webp" alt="Foto bersama kedua mempelai" loading="lazy" onerror="this.style.display='none';document.getElementById('photoPlaceholder').hidden=false"><div id="photoPlaceholder" class="photo-placeholder" hidden>Tempat satu foto bersama kedua mempelai<br><small>Tambahkan assets/images/foto-bersama.webp</small></div></div>
+<h3 data-couple></h3><p data-parents></p></section>
+<section class="section countdown"><h2>Menghitung Hari</h2><div id="countdown" class="timer">Waktu acara belum dikonfigurasi</div></section>
+<section class="section" id="acara"><h2>Informasi Acara</h2><div class="event-grid"><article class="event"><h3>Akad Nikah</h3><p data-akad></p></article><article class="event"><h3>Resepsi</h3><p data-resepsi></p></article></div><p data-address></p><div class="actions"><a class="primary" id="mapsLink" target="_blank" rel="noopener">Lihat Lokasi di Google Maps</a><a class="secondary" id="calendarLink" target="_blank" rel="noopener">Simpan Tanggal</a></div></section>
+<section class="section" id="rsvp"><h2>Konfirmasi Kehadiran</h2><form id="rsvpForm"><label>Nama lengkap<input name="name" maxlength="100" required></label><label>Konfirmasi kehadiran<select name="attendance" required><option value="">Pilih status</option><option>Hadir</option><option>Tidak Hadir</option></select></label><label>Jumlah tamu<select name="guests" required><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option></select></label><label>Ucapan dan doa<textarea name="message" maxlength="500" rows="4" placeholder="Tuliskan doa untuk kedua mempelai"></textarea></label><button class="primary" type="submit" id="submitBtn">Kirim RSVP</button><p id="formStatus" role="status"></p></form></section>
+<section class="section" id="ucapan"><h2>Ucapan & Doa</h2><div id="messages"><p>Ucapan akan ditampilkan setelah layanan terhubung.</p></div></section>
+</main><footer class="section"><p>Terima kasih atas doa dan kehadiran Anda.</p><h2 data-couple></h2><a class="primary gift-cta" href="hadiah.html">Kirim Hadiah <span aria-hidden="true">↗</span></a></footer>
+<script src="config.js"></script><script src="app.js"></script>
+</body></html>
